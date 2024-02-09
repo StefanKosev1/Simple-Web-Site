@@ -75,23 +75,6 @@ function processCommand(cmd) {
   }
 }
 
-function append(args) {
-  list = list.concat(args);
-}
 
-function rollLeft() {
-  list.push(list.shift());
-}
-
-function rollRight() {
-  list.unshift(list.pop());
-}
-
-function deleteFromList(index) {
-  if (list[index]) {
-    list.splice(list.indexOf(index), 1);
-  }
-  return `Error: invalid index ${index}`;
-}
 
 // TODO: implement more commands here ...
