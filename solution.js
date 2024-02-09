@@ -8,6 +8,7 @@ document.getElementById("home").addEventListener("click", (e) => {
   document.querySelector(".home-page").classList.remove("hide");
 });
 
+
 document.getElementById("register").addEventListener("click", (e) => {
   e.preventDefault();
   document.querySelectorAll(".page").forEach((x) => x.classList.add("hide"));
@@ -17,3 +18,5 @@ document.getElementById("register").addEventListener("click", (e) => {
   e.target.classList.add("new-color");
   document.querySelector(".register-page").classList.remove("hide");
 });
+
+
